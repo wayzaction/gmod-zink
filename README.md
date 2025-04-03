@@ -36,3 +36,9 @@ AMD: `sudo pacman -S vulkan-radeon && sudo pacman -S lib32-vulkan-radeon`
 4. Put these variables in the game's launch parameters:
 
 `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink %command% `
+
+# Enabling/Disabling MangoHUD
+1. Go to Garry's Mod root folder.
+2. Find hl2.sh and open it with any text editor.
+3. Find `export MANGOHUD=1` variable.
+4. Change number from `1` to `0` to disable or vice versa
