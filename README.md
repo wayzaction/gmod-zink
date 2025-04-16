@@ -1,4 +1,4 @@
-# Garry's Mod via Zink
+# Garry's Mod via Zink (Wayland Only)
 Run Garry's Mod on Linux via Zink (Opengl-to-Vulkan translation layer) for better compatibility with addons and performance (?)
 
 # Performance Comparison
