@@ -25,7 +25,7 @@ For some reason MangoHud does not work via OpenGL in Garry's Mod, praise Zink fo
 1. Apply the patcher: [click](https://github.com/wayzaction/gmod-linux-fix)
 
 2. Install common dependencies (Arch-based Distributions):
-`sudo pacman -S mesa && sudo pacman -S vulkan-icd-loader`
+`sudo pacman -S mesa && sudo pacman -S vulkan-icd-loader && sudo pacman -S libglvnd`
 
 3. Install dependencies according to your videocard:
 
